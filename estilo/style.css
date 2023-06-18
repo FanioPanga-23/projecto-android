@@ -35,7 +35,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     padding: 20px;
-    max-height: 200px;
+    min-height: 100px;
 }
 
 header > h1{
@@ -46,15 +46,17 @@ header > h1{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin: 30px 20px 20px 20px;
     text-shadow: 2px 2px 0px #0000004c;
 }
 
 header > p{
     font-family: var(--font-padrao);
     font-size: 1.2em;
+    max-width: 600px;
     color: #f5f5f5;
-    text-align: center;
-    padding: 5px;
+    margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px #0000004c;
 }
 
